@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_form"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <fragment android:id="@+id/fragment_list"
+        android:name="id.ac.ui.cs.learn_tktpl_1706039843.reminder.ListFragment"
+        android:label="fragment_list">
+        <action android:id="@+id/action_list_to_form"
+            android:destination="@id/fragment_form" />
+    </fragment>
+
+    <fragment android:id="@+id/fragment_form"
+        android:name="id.ac.ui.cs.learn_tktpl_1706039843.reminder.FormFragment"
+        android:label="fragment_form">
+        <action android:id="@+id/action_form_to_list"
+            android:destination="@id/fragment_list"
+/>
+    </fragment>
+</navigation>
