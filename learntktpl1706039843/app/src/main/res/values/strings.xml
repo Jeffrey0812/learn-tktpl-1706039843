@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">learn-tktpl-1706039843</string>
+    <string name="app_name">Lab 4 - Reminder App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
