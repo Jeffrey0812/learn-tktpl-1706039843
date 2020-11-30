@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">learn-tktpl-1706039843</string>
+    <string name="scanButton">Scan WiFi</string>
+    <string name="sendButton">Send to Server</string>
 </resources>
